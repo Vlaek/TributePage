@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #eee;
+  font-family: cursive;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  width: 98%;
+  margin: 25px auto 0;
+  padding-bottom: 15px;
+}
+
+.header h1 {
+  margin-bottom: -15px;
+  padding-top: 15px;
+  font-family: Lucida Handwriting;
+  font-size: 48px;
+}
+
+.header p {
+  text-decoration: underline
+}
+
+/* Picture */
+
+.picture {
+  margin: -16px auto 0;
+  background-color: #fff;
+  width: 95%;
+  border-radius: 5px;
+}
+
+.picture img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 100%;
+}
+
+.picture p {
+  margin-top: 0;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/* Info */
+
+.info h2 {
+  font-size: 20px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.info ul {
+  width: 40%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+li {
+  padding-bottom: 15px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
+}
+
+/* Quote */
+
+.quote {
+  width: 30%;
+  margin: 35px auto 0;
+}
+
+.quote-text {
+  margin-bottom: 10px;
+  font-style: italic;
+  text-align: justify;
+}
+
+.quote-author {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+/* Footer */
+
+.footer {
+  padding: 15px;
+  width: 35%;
+  margin: 0 auto;
+  font-weight: 600;
+  text-align: justify;
+}
